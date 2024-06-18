@@ -41,15 +41,9 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "*.tsx ": [
-      "npm run lint:fix",
-      "git add"
+    "**/*.{ts, tsx} ": [
+      "npm run lint:fix"
     ]
   }
 }
