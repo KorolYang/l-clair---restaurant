@@ -46,7 +46,7 @@
     }
   },
   "lint-staged": {
-    "**/*.ts **/*.js **/*.tsx **/*.jsx": [
+    "*.tsx ": [
       "npm run lint:fix",
       "git add"
     ]
