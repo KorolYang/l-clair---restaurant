@@ -42,7 +42,7 @@
     "vite": "^5.2.0"
   },
   "lint-staged": {
-    "**/*.{ts,tsx} ": [
+    "**/*.": [
       "npx eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
       "npx eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix"
     ]
