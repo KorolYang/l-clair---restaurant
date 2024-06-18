@@ -1,21 +1,5 @@
 function App() {
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  var d = 2323;
+  const d = 2323;
   return <></>;
 }
 

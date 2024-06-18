@@ -9,8 +9,7 @@
     "lint": "eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
     "preview": "vite preview",
-    "prepare": "husky",
-    "lint-staged": "lint-staged"
+    "prepare": "husky"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
@@ -43,8 +42,7 @@
     "vite": "^5.2.0"
   },
   "lint-staged": {
-    "**/*.": [
-      "npx eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "src/**/*.{tsx,ts}": [
       "npx eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix"
     ]
   }
