@@ -9,6 +9,8 @@ lerna-debug.log*
 
 node_modules
 .husky
+public/mockServiceWorker.js
+src/mocks
 dist
 dist-ssr
 *.local

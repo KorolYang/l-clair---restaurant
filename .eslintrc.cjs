@@ -57,6 +57,7 @@ module.exports = {
     "react/no-unescaped-entities": "off",
     "no-var": "error",
     "max-len": ["error", { code: 100 }],
+    "@typescript-eslint/no-unused-vars": "off",
     "prettier/prettier": "error",
     quotes: [
       2,

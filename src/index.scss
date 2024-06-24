@@ -1,0 +1,25 @@
+// :root {
+
+//   }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: inherit;
+  text-decoration: inherit;
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+input,
+input::placeholder,
+textarea,
+textarea::placeholder {
+  all: unset;
+}
