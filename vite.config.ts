@@ -8,7 +8,7 @@ export default defineConfig(({ command, mode }) => {
   // Set the third parameter to '' to load all env regardless of the `VITE_` prefix.
   const env = loadEnv(mode, process.cwd(), "");
   return {
-    base: "./",
+    base: "/l-clair---restaurant/",
     plugins: [
       nodePolyfills(), // this is necessary to avoid "process is not defined issue"
       react(),

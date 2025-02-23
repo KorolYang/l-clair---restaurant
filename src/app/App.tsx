@@ -1,7 +1,7 @@
 import Cookie from "js-cookie";
 import { Suspense, useEffect } from "react";
 import jwt from "jsonwebtoken";
-import { Route, Routes } from "react-router-dom";
+import { HashRouter as Route, Routes } from 'react-router-dom';
 import { Layout } from "./Layout/Layout";
 import { ErrorPage } from "../modules/ErrorPage/ErrorPage";
 import { pathRoutes } from "./routes/pathRoutes";
