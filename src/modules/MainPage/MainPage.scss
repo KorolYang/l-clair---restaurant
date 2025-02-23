@@ -1,0 +1,148 @@
+.container {
+  padding: 0 25px;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 85vw;
+  box-shadow:
+    2px 2px 45px 1px rgba(0, 0, 0, 0.2),
+    -2px -2px 45px 1px rgba(0, 0, 0, 0.2);
+
+  .section-container {
+    padding: 20px 0 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+
+    &:last-of-type {
+      border: none;
+      margin: 0;
+    }
+    .about__box-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 100px;
+
+      .about__title {
+        text-align: center;
+        font-size: 34px;
+        margin-bottom: 20px;
+      }
+
+      .about__flag-pictire {
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+      }
+    }
+
+    .about__info-card {
+      padding: 20px;
+      margin-bottom: 100px;
+      display: flex;
+      justify-content: space-between;
+      min-height: 200px;
+      height: 100%;
+      width: 100%;
+      box-shadow: 2px 0px 45px 1px rgba(0, 0, 0, 0.2);
+
+      .info-card__picture {
+        height: 200px;
+        width: 48%;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 20px;
+          object-fit: cover;
+        }
+      }
+
+      .info-card__description {
+        display: flex;
+        align-items: center;
+        width: 48%;
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .about__team {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    min-height: 400px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 0px 45px 1px rgba(0, 0, 0, 0.2);
+
+    .team-picture {
+      height: 300px;
+      width: 100%;
+      margin-bottom: 20px;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+      }
+    }
+
+    .team-description {
+      text-align: center;
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  .info__title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 100px;
+  }
+
+  .contact-box {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 0px 45px 1px rgba(0, 0, 0, 0.2);
+
+    &__map {
+      width: 48%;
+      height: 300px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 48%;
+
+      h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .social-info {
+        display: flex;
+
+        a {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}

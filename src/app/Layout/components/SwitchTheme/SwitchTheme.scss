@@ -1,0 +1,16 @@
+.theme {
+  margin-right: 30px;
+  align-self: center;
+
+  .switch {
+    background: white;
+    &:hover {
+      background: gray;
+    }
+  }
+
+  .moon,
+  .sun {
+    color: black;
+  }
+}

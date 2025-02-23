@@ -1,0 +1,33 @@
+.profile-header {
+  margin-bottom: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 0px 45px 1px $shadowColor;
+  min-height: 50px;
+  width: 100%;
+
+  .profile__title {
+    font-size: 24px;
+  }
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+
+  &__avatar {
+    margin-right: 20px;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+
+    img {
+      padding: 10px;
+      border: 1px solid black;
+      max-width: 200px;
+      max-height: 200px;
+      object-fit: contain;
+    }
+  }
+}

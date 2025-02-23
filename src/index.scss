@@ -1,25 +1,41 @@
-// :root {
+@forward "./styles/main.scss";
+@use "./styles/main.scss" as *;
+@import "react-toastify/dist/ReactToastify.css";
 
-//   }
+:root {
+  --color-background: rgb(255, 255, 255);
+  --color-shadow: rgba(0, 0, 0, 0.2);
+  &.dark {
+    --color-background: rgb(117, 117, 117);
+    --color-shadow: rgba(255, 255, 255, 0.6);
+  }
+}
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
   font-weight: inherit;
   text-decoration: inherit;
   border: none;
 }
-
 body {
-  min-height: 100vh;
+  height: 100%;
   font-size: 14px;
 }
 
-input,
-input::placeholder,
-textarea,
-textarea::placeholder {
-  all: unset;
+.main-content {
+  position: relative;
+  padding-bottom: 150px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $bgColor;
+  transition: background-color 0.35s ease-in-out;
+}
+
+.content-container {
+  padding: 0 20px;
 }

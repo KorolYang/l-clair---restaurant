@@ -1,0 +1,25 @@
+.order {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 20px;
+  min-height: 200px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 2px 0px 45px 1px $shadowColor;
+
+  &__title {
+    font-size: 30px;
+  }
+
+  &__delete-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  &__info {
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 16px;
+  }
+}

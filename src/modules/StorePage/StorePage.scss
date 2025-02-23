@@ -1,0 +1,22 @@
+.filter-menu {
+  margin-bottom: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 2px 0px 45px 1px $shadowColor;
+  min-height: 50px;
+  width: 100%;
+
+  &__btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: grey;
+    }
+  }
+}

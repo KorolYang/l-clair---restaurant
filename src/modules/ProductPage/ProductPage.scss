@@ -1,0 +1,41 @@
+.product {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 2px 0px 45px 1px $shadowColor;
+  transition: all 0.35s ease-in-out;
+
+  &__pic {
+    margin-right: 20px;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    img {
+      padding: 10px;
+      max-width: 200px;
+      max-height: 200px;
+      object-fit: contain;
+    }
+  }
+  &__go-back-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+    p {
+      font-size: 24px;
+
+      &:last-of-type {
+        align-self: flex-end;
+      }
+    }
+  }
+}
