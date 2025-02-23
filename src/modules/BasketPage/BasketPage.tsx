@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
-import "./BasketPage.scss";
 import { BasketTable } from "./components/BasketTable/BasketTable";
+import "./BasketPage.scss";
 
 export const BasketPage = () => {
-  console.log("render basket");
   return (
     <>
       <div className="basket__header">

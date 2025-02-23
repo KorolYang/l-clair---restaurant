@@ -10,7 +10,6 @@ export type TBasketCardProps = {
 };
 
 export const BasketCard: FC<TBasketCardProps> = ({ product }) => {
-  console.log("render basket card");
   const dispatch = useStoreDispatch(menuStore);
 
   const handlerIncreaseCount = () => {

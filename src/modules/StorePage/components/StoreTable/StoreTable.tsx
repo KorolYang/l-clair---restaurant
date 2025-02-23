@@ -7,7 +7,6 @@ import { menuStore } from "../../store/menuStore";
 import "./StoreTable.scss";
 
 export const StoreTable = () => {
-  console.log("render list");
   const menu = useStoreSelector(menuStore, selectMenu);
   const category = useStoreSelector(menuStore, selectCategory);
   const filteredMenu =

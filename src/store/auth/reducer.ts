@@ -32,6 +32,7 @@ const initialState: TAuthState = {
   },
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const userReduser = (state: TAuthState = initialState, action: any): TAuthState => {
   switch (action.type) {
     case "LOGIN": {

@@ -12,7 +12,6 @@ export type TCardProps = {
 };
 
 export const Card: FC<TCardProps> = ({ product, inBasket }) => {
-  console.log("render card", product.id);
   const dispatch = useStoreDispatch(menuStore);
 
   const handlerAddProduct = () => {

@@ -36,6 +36,7 @@ const initialState: TInitialState = {
 };
 
 // { type, payload }: { type: string; payload: PayloadVariants },
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const menuReduser = (state: TInitialState = initialState, action: any): TInitialState => {
   switch (action.type) {
     case "GET_MENU": {

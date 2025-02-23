@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 import "./Button.scss";
 import cn from "classnames";
 

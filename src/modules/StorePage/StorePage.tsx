@@ -20,7 +20,6 @@ const StorePage = () => {
   useEffect(() => {
     dispatch(fetchMenu());
   }, []);
-  console.log("render store");
   return (
     <>
       <div className="filter-menu">

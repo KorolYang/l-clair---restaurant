@@ -11,7 +11,6 @@ export type TOrderProps = {
 };
 
 export const Order: FC<TOrderProps> = ({ order, deleteOrder }) => {
-  console.log("render order item", order.id);
   return (
     <div className="order">
       <h3 className="order__title">Заказ №: {order.id}</h3>

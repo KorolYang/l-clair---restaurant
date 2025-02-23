@@ -11,7 +11,6 @@ export const ProductPage: FC = () => {
   const navigate = useNavigate();
   const { id } = useParams();
   const product = menu.find((item) => item.id === id);
-  console.log(id, "current id");
   const goBack = () => {
     navigate(-1);
   };

@@ -23,7 +23,6 @@ const OrdersPage = () => {
       appDispatch(login(res));
     });
   };
-  console.log("render order list");
   return (
     <div>
       <h2 className="order__header">Ваши заказы, {user.name}</h2>

@@ -14,7 +14,6 @@ import { Button } from "../../../../ui/Button/Button";
 import "./BasketTable.scss";
 
 export const BasketTable = () => {
-  console.log("reder basket list");
   const basket = useStoreSelector(menuStore, selectBasket);
   const user = useStoreSelector(appStore, selectUser);
   const menuDispatch = useStoreDispatch(menuStore);
